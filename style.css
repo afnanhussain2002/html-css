@@ -17,6 +17,9 @@ body{
     font-weight: 700;
     
 }
+main section{
+    margin-top: 130px;
+}
 
 /* navber style */
 
@@ -47,6 +50,9 @@ nav ul li a{
 
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-position: bottom right, top left;
+    background-repeat: no-repeat;
 }
 .under-header{
     display: flex;
@@ -77,5 +83,91 @@ line-height: 30px;
 width: 585px;
 }
 
+.right-side img{
+    width: 584px;
+height: 676px;
+flex-shrink: 0;
+}
 
+/* About section style  */
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.about-section{
+border-radius: 10px;
+background: #FFF8F3;
+padding: 100px;
+}
+
+.section-titel{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 820px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+
+/* what i do section style */
+
+.what-i-do > p{
+    margin: auto;
+}
+
+.skill-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.skill{
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding: 30px;
+}
+.skill-titel{
+    color:  #181818;
+text-align: left;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.skill-des{
+    color:  #757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+
+/* REsemume style */
+.main-resume{
+    display: flex;
+    gap: 50px;
+    
+}
 
